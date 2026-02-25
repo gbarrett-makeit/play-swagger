@@ -13,7 +13,7 @@ ThisBuild / scalafixScalaBinaryVersion := CrossVersion.binaryScalaVersion(scalaV
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala, SwaggerPlugin) //enable plugin
 
-scalaVersion := "2.13.18"
+scalaVersion := "3.3.7"
 
 libraryDependencies ++= Seq(
   jdbc,
